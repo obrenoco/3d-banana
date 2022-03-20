@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: goldenrod;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+}
+
+p {
+  font-family: "Modak", cursive;
+  font-size: 24vw;
+  margin: 0;
+  line-height: 1;
+}
+
+model-viewer#reveal {
+  --poster-color: goldenrod;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
