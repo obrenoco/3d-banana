@@ -35,6 +35,8 @@ const App = () => {
         touch-action={"none"}
         auto-rotate
         field-of-view="50deg"
+        camera-controls
+        disable-zoom
         style={{ width: "100%", height: windowSize }}
       ></model-viewer>
       <p>BANANA</p>
@@ -51,6 +53,7 @@ const App = () => {
         touch-action={"none"}
         auto-rotate
         field-of-view="50deg"
+        camera-controls
         style={{ width: "100%", height: windowSize }}
       ></model-viewer>
       <p>BANANA</p>
